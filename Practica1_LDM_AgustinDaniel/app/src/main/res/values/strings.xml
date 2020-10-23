@@ -1,12 +1,41 @@
 <resources>
-    <string name="app_name">Practica1_LDM_AgustinDaniel</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="app_name">QUIZ TEST</string>
+    <string name="mensajeBienvenida">Bienvenido!</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <integer name="puntos">0</integer>
+
+    <string name="textoBotonInicio">Empezar</string>
+    <string name="textoBotonIrAPregunta2">Comprobar</string>
+    <string name="textoBotonIrAPregunta3">Comprobar</string>
+    <string name="textoBotonIrAPregunta4">Comprobar</string>
+    <string name="textoBotonIrAPregunta5">Comprobar</string>
+
+    <!-- ACIERTO: SUMA 2 PTS | FALLO: PIERDE 1 PTS -->
+    <string name="mensajeAcierto">Respuesta correcta. Tienes dos puntos mas</string>
+    <string name="mensajeFallo">Respuesta incorrecta. Pierdes un punto</string>
+
+    <string name="pregunta1">¿Qué comunidad autónoma tiene más provincias?</string>
+    <string name="pregunta2">¿Qué grupo musical destacó principalmente en la década de los 60?</string>
+    <string name="pregunta3">.</string>
+    <string name="pregunta4">..</string>
+    <string name="pregunta5">...</string>
+
+    <array name="respuestasPregunta1">
+        <item>Andalucía</item>
+        <item>Castilla y León</item>
+        <item>Castilla La Mancha</item>
+        <item>Cataluña</item>
+    </array>
+
+    <array name="respuestasPregunta2">
+        <item>Kiss</item>
+        <item>The Beatles</item>
+        <item>AC/DC</item>
+        <item>ABBA</item>
+    </array>
+
+    <!-- RESPUESTAS CORRECTAS -->
+    <integer name="respuestaCorrectaPregunta1">2</integer>
+    <integer name="respuestaCorrectaPregunta2">2</integer>
+
 </resources>
