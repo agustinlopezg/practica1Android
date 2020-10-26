@@ -8,3 +8,8 @@ Vídeos que nos han servido de gran ayuda:
 - ¿Cómo insertar una imagen? - https://www.youtube.com/watch?v=uzUHP834T28
 - ¿Cómo generar un APK? - https://www.youtube.com/watch?v=TmmseFywWDs
 - ¿Cómo implementar un Spinner? - https://www.youtube.com/watch?v=dp_ruQOP1sU&t=323s
+
+Problemas encontrados:
+- Conseguir una forma de guardar las preguntas y respuestas de forma ordenada y sin meter los datos "a pelo".
+- Alinear y organizar correctamente cada elemento de las Activity, ya que constantemente estaba todo desordenado.
+- No redirige a la siguiente Activity al clickar sobre los botones para comprobar si la respuesta a cada pregunta es correcta o incorrecta, aun establecido el método onClick correctamente y aun poniendo las Constraint bien.
