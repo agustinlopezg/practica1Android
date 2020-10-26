@@ -7,3 +7,4 @@ Vídeos que nos han servido de gran ayuda:
 - Customizar la ToolBar - https://www.youtube.com/watch?v=e53cf9mglH8
 - ¿Cómo insertar una imagen? - https://www.youtube.com/watch?v=uzUHP834T28
 - ¿Cómo generar un APK? - https://www.youtube.com/watch?v=TmmseFywWDs
+- ¿Cómo implementar un Spinner? - https://www.youtube.com/watch?v=dp_ruQOP1sU&t=323s
