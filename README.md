@@ -14,3 +14,4 @@ Problemas encontrados:
 - Conseguir una forma de guardar las preguntas y respuestas de forma ordenada y sin meter los datos "a pelo".
 - Alinear y organizar correctamente cada elemento de las Activity, ya que constantemente estaba todo desordenado.
 - No redirige a la siguiente Activity al clickar sobre los botones para comprobar si la respuesta a cada pregunta es correcta o incorrecta, aun establecido el método onClick correctamente y aun poniendo las Constraint bien.
+- Identificar, depurar y solucionar errores como por ejemplo el error "Inflating Binary XML" debido a la inserción de una imagen
