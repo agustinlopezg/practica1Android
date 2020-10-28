@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity">
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/mytoolbar" />
+
+    <TextView
+        android:id="@+id/tituloFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PUNTOS"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include3"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <TextView
+        android:id="@+id/puntosConseguidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloFinal"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/botonDeVueltaAlInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="volverAlPrincipio"
+        android:text="@string/textoBotonVolverAlPrincipio"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puntosConseguidos"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <Button
+        android:id="@+id/botonTerminarPartida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="terminarPartida"
+        android:text="@string/textoTerminarPartida"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonDeVueltaAlInicio"
+        app:layout_constraintVertical_bias="0.236" />
+</androidx.constraintlayout.widget.ConstraintLayout>

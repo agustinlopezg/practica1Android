@@ -6,7 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".ActivityPreg2">
 
-    <include
-        layout="@layout/mytoolbar" />
+    <Button
+        android:id="@+id/botonPreg2"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:onClick="irAPreg3"
+        android:text="@string/textoBotonIrASiguientePregunta"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="@+id/grupoRespuestas2"
+        app:layout_constraintTop_toBottomOf="@+id/pregunta2"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <include layout="@layout/mytoolbar" />
+
+    <TextView
+        android:id="@+id/pregunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="72dp"
+        android:gravity="center"
+        android:text="@string/pregunta2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <RadioGroup
+        android:id="@+id/grupoRespuestas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pregunta2">
+
+        <RadioButton
+            android:id="@+id/resp1preg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/resp2preg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/resp3preg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/resp4preg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:textSize="18sp" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
