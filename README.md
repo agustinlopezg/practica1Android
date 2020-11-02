@@ -9,7 +9,7 @@ Vídeos que nos han servido de gran ayuda:
 - ¿Cómo generar un APK? - https://www.youtube.com/watch?v=TmmseFywWDs
 - ¿Cómo implementar un Spinner? - https://www.youtube.com/watch?v=dp_ruQOP1sU&t=323s
 - ¿Cómo implementar un CheckBox? - https://www.youtube.com/watch?v=vLt5rLeFIrk
-- ¿Cómo enviar datos de una Activity a otra? - https://www.youtube.com/watch?v=5VYe-_rGT1s
+- ¿Cómo enviar datos de una Activity a otra? - https://www.youtube.com/watch?v=5VYe-_rGT1s // http://jonsegador.com/2012/02/paso-de-datos-variables-entre-actividades-android/
 - ¿Cómo cerrar la aplicación? - https://www.youtube.com/watch?v=-Qy3sQt5McQ&ab_channel=TuTutorial
 
 Problemas encontrados:
